@@ -1,0 +1,165 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+body{
+    background: linear-gradient(white , #d3d8e8);
+}
+
+header{
+	height: 100px;
+	background: #415e9b;
+	border-bottom: 1px solid #e3e6f0;
+}
+.fb-head {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+.fb-head label{
+	color: #fff
+}
+.logo{
+	width: 50%;
+	float: left;
+}
+.logo p{
+	padding: 10px 0 20px 0;
+	font-size: 45px;
+	font-family:sans-serif;
+	color:  #fff;
+	font-weight: bold;
+}
+.login{
+	width: 50%;
+	float: right;
+}
+.email{
+	float: left;
+}
+.email label{
+	padding-bottom: 10px;
+	font-family: Sans-serif;
+	font-size: 13px;
+}
+.email input[type="text"]{
+	height: 20px;
+	width: 150px;
+	border: 1px solid #3b5998;
+}
+.password{
+	float: left;
+	margin-left: 13px;
+}
+.password label{
+	padding-bottom: 10px;
+	font-family: Sans-serif;
+	font-size: 13px;
+}
+.password input[type="password"]{
+	height: 20px;
+	width: 150px;
+	border: 1px solid #3b5998;
+}
+.password a{
+	color: #86b4d8;
+	text-decoration: none;
+	font-family: Sans-serif;
+	font-size: 13px;
+}
+.button{
+	float: left;
+	margin: 20px 0 0 13px;
+}
+.button input[type=submit]{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	border-radius: 2px;
+	color: #fff;
+	height: 20px;
+	width: 50px;
+}
+.content-block {
+	width: 1000px;
+	margin: 0 auto;
+}
+.fb-connect p{
+	font-family: Sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #0e385f;
+	margin-top: 50px;
+	position: absolute;
+    left: 200;
+    top: 85px;
+}
+.world{
+	position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.creat-account{
+	float: right;
+	width: 50%;
+	margin-top: 10px
+}
+.creat-account h2{
+	font-family: Sans-serif;
+	font-size: 40px;
+	margin-top: 25px;
+}
+.creat-account p{
+	font-family: Sans-serif;
+	font-size: 20px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.acc input[type="text"]{
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;
+	width: 70%;
+}
+.acc input[type="password"]{
+	width: 70%;
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;
+}
+.acc p{
+	font-family: Sans-serif;
+	font-size: 13px;
+	color: #777;
+}
+.acc input[type="submit"]{
+	padding: 15px 22px;
+	background: linear-gradient(#95d67c, #65a953);
+	border: 1px solid #3b6e22;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.low{
+	padding: 650px 0 0 200px;
+}
+.low li{
+    display: block;
+    float: left;
+    height: 25px;
+    list-style-type: none;
+    margin: 10px;
+    vertical-align: middle;
+}
+.low a{
+	font-family: Helvetica Neue;
+	text-decoration: none;
+	font-size: 15px;
+}
+.low p{
+	padding: 25px 0 0 0;
+	color: #737373;
+}
